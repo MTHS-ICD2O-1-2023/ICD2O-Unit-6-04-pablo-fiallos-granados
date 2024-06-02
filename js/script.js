@@ -14,7 +14,7 @@ window.onload = function () {
   console.log(radius)
 
   // process
-  const volume = (4 / 3) * Math.PI * radius ** 2
+  const volume = (4 / 3) * Math.PI * radius ** 3
 
   // output
   document.getElementById("volume-info").innerHTML =
